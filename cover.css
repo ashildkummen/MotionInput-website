@@ -26,9 +26,11 @@ a:hover {
 
 html,
 body {
-  height: 100%;
+  min-height: 100%;
+  max-height: 200%;
   background-image: linear-gradient(to right, #333, #006CE3);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -154,3 +156,6 @@ body {
   }
 }
 
+.videosdiv {
+  height:200%;
+}
